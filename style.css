@@ -1,0 +1,71 @@
+:root {
+  --bg: #fdfdfd;
+  --text: #1a1a1a;
+  --accent: #6c63ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--accent);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+#hero {
+  background: #eee;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background: #f0f0f0;
+}
